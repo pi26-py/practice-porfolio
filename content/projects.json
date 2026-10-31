@@ -7,15 +7,11 @@
     "statusVariant": "active",
     "stack": [
       "ASP.NET Core",
-      "Firebase RTDB",
-      "Arduino"
+      "C#"
     ],
-    "summary": "RDF.Arcana.API is the backend Sales and Inventory system, pushing firmware, and turning raw location logs into reports a dispatcher can read.",
+    "summary": "From delivery,sales and inventory to finance reports",
     "highlights": [
-      "GPS device registration and Firebase provisioning through a CQRS pipeline (AddStoreDevice)",
-      "Firmware OTA management: uploads, version history, and a per-device update audit trail",
-      "Travel-log ingestion: CSV parsing, dedup, reverse geocoding, and Douglas-Peucker route simplification",
-      "Two-sheet Excel export of daily logs and per-vehicle distance summaries via ClosedXML"
+      "Technical details and project documentation are being prepared."
     ]
   },
   {
@@ -33,22 +29,19 @@
   {
     "slug": "fault-automation",
     "name": "Fault Automation",
-    "tagline": "Conveyor & RFID line controller",
+    "tagline": "Fault Detection IoT",
     "status": "Maintained",
     "statusVariant": "active",
     "stack": [
       "ASP.NET Core",
       "SignalR",
-      "Carter",
+      "Firebase",
       "EF Core",
-      "RC522 RFID"
+      "Arduino"
     ],
-    "summary": "A conveyor-line control backend built around a serial link to the line's Arduino that has to recover cleanly from every drop, jam, and reconnect.",
+    "summary": "System faul detection and Iot Alarm System",
     "highlights": [
-      "PING/PONG heartbeat protocol over serial with automatic fault detection and reconnect handling",
-      "SignalR hub broadcasting live tag reads and line state to connected UIs",
-      "RC522 tag read/write state machine synchronized with a servo gate and IR sensor",
-      "Evaluated UHF RFID and face-recognition access-control modules for the same line"
+      "Technical details and project documentation are being prepared."
     ]
   },
   {
