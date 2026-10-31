@@ -192,3 +192,5 @@ a.contact-card:hover { border-color: var(--amber); background: #64e4cf0c; }
 .about-location .about-field-label { margin-bottom: .35rem; }
 .about-location > div { overflow-wrap: anywhere; white-space: pre-line; }
 @media (max-width: 700px) { .about-section { grid-template-columns: 1fr; gap: 1.5rem; } .about-photo-frame { max-width: 280px; } }
+.skip-link { position: fixed; top: -100px; left: 1rem; z-index: 100; padding: .75rem 1rem; color: #080e16; background: var(--amber); border-radius: 6px; }
+.skip-link:focus { top: 1rem; }
